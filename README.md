@@ -16,14 +16,14 @@ A simple Node.js application containerized using Docker — perfect for learning
 git clone https://github.com/AbdullahTayyab003/nodejs-docker-app.git
 cd nodejs-docker-app
 
-### 2. Build Docker Image
+2. Build Docker Image
 
 docker build -t nodejs-docker-app .
 
-### 3. Run the Container
+3. Run the Container
 docker run -p 3000:3000 nodejs-docker-app
 
-##  Then open http://localhost:3000 in your browser.
+Then open http://localhost:3000 in your browser.
 
 📁 Project Structure
 
